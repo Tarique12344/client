@@ -1,4 +1,3 @@
-// import { Link } from 'react-router-dom';
 import axios from 'axios';
 import React, { Component } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -8,15 +7,19 @@ import "../Styles/attractions.css"
 
 
 const Attractions = props => (
-  <tr>
-    <td>{props.attractions.title}</td>
-    <td>{props.attractions.address}</td>
-    <td>{props.attractions.description}</td>
-    <td>{props.attractions.ratings}</td>
-    {/* <td>
-      <Link to={"/edit/"+props.attractions._id}>edit</Link> | <a href="/" onClick={() => { props.deleteAttractions(props.attractions._id) }}>delete</a>
-    </td> */}
-  </tr>
+  
+
+    <div className='allAttractions'>
+    <div className='attractionsCard'>
+        <div>
+            <div className='text-name'>{props.attractions.title}</div>
+            <div className='text-name'>{props.attractions.address}</div>
+            <div className='text-name'>{props.attractions.description}</div>
+            <div className='text-name'>{props.attractions.ratings}</div>
+
+        </div>
+    </div>
+</div>
 )
 
  class AttractionsList extends Component {
@@ -56,7 +59,7 @@ const Attractions = props => (
   render() {
     return (
       <div>
-        <h1 className="title">Attractions</h1>
+        <h1 className="title text-center">Attractions</h1>
         {/* <table className="table">
           <thead className="thead-light">
             <tr>

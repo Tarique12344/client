@@ -1,15 +1,89 @@
-.attractionsContainer{
-    width: 150px;
-    margin-left: 5px;
+.allAttractions{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.attractionsCard {
+    width: 600px;
+    margin-left: 5vw;
     display: flex;
     flex-direction: column;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    background: #008cff;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    background: #E0E6EB;
 }
-.attractionsContainer:hover{
+.attractionsCard:hover {
     transform: scale(1.1);
+    /* box-shadow: 2px 2px 2px black; */
 }
+.cardImage {
+    width: 100%;
+}
+.attractionImage {
+    width: 90%;
+    height: 40vh;
+}
+.attractionsHeader {
+    margin-top: 20vh;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px #C6011F;
+}
+.text-name {
+    font-size: 25px;
+    font-weight: bold;
+    color: #C6011F;
+}
+.link-details {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+.link-site {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+.link-details:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.link-site:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.attractionsInnerContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width:700px) {
+    .attractionsHeader{
+        font-size: 45px;
+    }
+    .text-name {
+        font-size: 20px;
+    }
+    .link-details {
+        font-size: 20px;
+    }
+    .link-site {
+        font-size: 20px;
+    }
+    .attractionsCard {
+        width: 500px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+@media screen and (max-width:530px){
+    .attractionsCard {
+        width: 75vw;
+    }
+}
+
 
 .title{
     color: white;
@@ -18,3 +92,9 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 10px 10px 20px white;
 }
+
+
+
+
+
+
