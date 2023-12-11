@@ -66,7 +66,7 @@ class Contact extends Component {
       console.log(contact)
   
       
-      axios.post('http://localhost:5000/contact/add', contact)
+      axios.post('https://capstone-backend-a3vm.onrender.com/contact/add', contact)
       .then(res => console.log(res.data))
       .catch(err => console.log(err));
 

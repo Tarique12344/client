@@ -29,7 +29,7 @@ const Attractions = props => (
   }
 
   componentDidMount() {
-    axios.get('http://localhost:5000/' + 'attractions/')
+    axios.get('https://capstone-backend-a3vm.onrender.com/' + 'attractions/')
       .then(response => {
         this.setState({ attractions: response.data })
       })

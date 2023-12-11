@@ -77,7 +77,7 @@ class Booking extends Component {
               bookingcomment: this.state.bookingcomment
             }
             console.log(booking)
-            axios.post('http://localhost:5000/booking/add', booking)
+            axios.post('https://capstone-backend-a3vm.onrender.com/booking/add', booking)
             .then(res=>console.log(res.data))
             .catch(err => console.log(err));
    

@@ -32,7 +32,7 @@ import '../Styles/addattractions.css'
   console.log(addattractions)
 
   
-  axios.post('http://localhost:5000/addattraction/add', addattractions)
+  axios.post('https://capstone-backend-a3vm.onrender.com/addattraction/add', addattractions)
   .then(res => console.log(res.data))
   .catch(err => console.log(err));
 
