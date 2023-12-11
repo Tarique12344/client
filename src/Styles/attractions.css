@@ -27,12 +27,13 @@
 .attractionsHeader {
     margin-top: 20vh;
     font-size: 50px;
-    text-shadow: 3px 3px 3px #C6011F;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
 }
 .text-name {
     font-size: 25px;
     font-weight: bold;
-    color: #C6011F;
+    color: black;
 }
 .link-details {
     font-size: 25px;
