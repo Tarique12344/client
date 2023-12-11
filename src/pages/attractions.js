@@ -5,14 +5,27 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../Styles/attractions.css"
 
 
+import queencity from '../img/queencity.jpeg'
+import paulbrownstadium from '../img/Paul-Brown-Stadium.jpg'
+import downtowncinci from '../img/downtownCinci.jpg'
+import garden from '../img/Garden.webp'
+import market from '../img/Market.jpg'
+
+
+
+
+
 
 const Attractions = props => (
   
+  
+  
+
 
     <div className='allAttractions'>
     <div className='attractionsCard'>
         <div>
-            <div className='text-name'>{props.attractions.title}</div>
+            <div className='text-name title-Text'>{props.attractions.title}</div>
             <div className='text-name'>{props.attractions.address}</div>
             <div className='text-name'>{props.attractions.description}</div>
             <div className='text-name'>{props.attractions.ratings}</div>
@@ -58,6 +71,29 @@ const Attractions = props => (
 
   render() {
     return (
+      <div onScroll={ this.handleScroll } id="homePage">
+    
+      <div id="carouselExample SlidesOnly" className="carousel" data-bs-ride="carousel">
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src={queencity} class="d-block w-100 slideShow" id='homePage' alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={paulbrownstadium} class="d-block w-100 slideShow" id='homePage'  alt="..."/>
+    </div>
+    <div className="carousel-item">
+    <img src={downtowncinci} class="d-block w-100 slideShow" id='HomePage' alt="..."/>
+    </div>
+    <div className="carousel-item">
+    <img src={garden} class="d-block w-100 slideShow" id='HomePage' alt="..."/>
+    </div>
+    <div className="carousel-item">
+    <img src={market} class="d-block w-100 slideShow" id='HomePage' alt="..."/>
+    </div>
+  </div>
+  
+ 
+
       <div>
         <h1 className="title text-center">Attractions</h1>
         {/* <table className="table">
@@ -77,6 +113,9 @@ const Attractions = props => (
         {this.attractionsList()}
         </div>
       </div>
+    </div>
+  </div>
+  
     )
   }
 }
