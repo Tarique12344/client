@@ -1,0 +1,7 @@
+.footer-buttons-container{
+    display:flex;
+    flex-direction:row;
+    justify-items:center;
+    text-align:center;
+
+  }

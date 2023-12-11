@@ -1,0 +1,17 @@
+.form1{
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+}
+
+.form2{
+    font-size: xx-large;
+    text-align: center;
+    color: blue;
+}
+
+.form3{
+    background-color: orange;
+    border-radius: 100px;
+    
+}
