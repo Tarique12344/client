@@ -95,7 +95,7 @@ const Attractions = props => (
  
 
       <div>
-        <h1 className="title text-center">Attractions</h1>
+        <h1 className="title text-center">Attractions in our beloved city</h1>
         {/* <table className="table">
           <thead className="thead-light">
             <tr>
