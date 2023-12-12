@@ -5,9 +5,9 @@ import '../Styles/addattractions.css'
 
 import queencity from '../img/queencity.jpeg'
 import paulbrownstadium from '../img/Paul-Brown-Stadium.jpg'
-import wall from '../img/wall.jpg'
-import signamerican from '../img/sign-american.png'
-import downtown from '../img/downtownCinci.jpg'
+import downtowncinci from '../img/downtownCinci.jpg'
+import garden from '../img/Garden.webp'
+import market from '../img/Market.jpg'
 
 
 
@@ -68,6 +68,7 @@ import downtown from '../img/downtownCinci.jpg'
     <img src={market} class="d-block w-100 slideShow" id='HomePage' alt="..."/>
     </div>
   </div>
+ </div>
   
       <div className='form3'>
       <div className="container">
@@ -94,7 +95,7 @@ import downtown from '../img/downtownCinci.jpg'
    </div>
    </div>
    </div>
-   </div>
+   
     )
   }
 }
