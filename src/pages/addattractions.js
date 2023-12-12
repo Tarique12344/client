@@ -2,6 +2,15 @@ import React, { Component } from 'react'
 import axios from 'axios';
 import '../Styles/addattractions.css'
 
+
+import queencity from '../img/queencity.jpeg'
+import paulbrownstadium from '../img/Paul-Brown-Stadium.jpg'
+import wall from '../img/wall.jpg'
+import signamerican from '../img/sign-american.png'
+import downtown from '../img/downtownCinci.jpg'
+
+
+
  class Addattractions extends Component {
   constructor (props){
     super (props)
@@ -39,6 +48,27 @@ import '../Styles/addattractions.css'
   }
   render() {
     return (
+      <div onScroll={ this.handleScroll } id="homePage">
+    
+      <div id="carouselExample SlidesOnly" className="carousel" data-bs-ride="carousel">
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src={queencity} class="d-block w-100 slideShow" id='homePage' alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={paulbrownstadium} class="d-block w-100 slideShow" id='homePage'  alt="..."/>
+    </div>
+    <div className="carousel-item">
+    <img src={downtowncinci} class="d-block w-100 slideShow" id='HomePage' alt="..."/>
+    </div>
+    <div className="carousel-item">
+    <img src={garden} class="d-block w-100 slideShow" id='HomePage' alt="..."/>
+    </div>
+    <div className="carousel-item">
+    <img src={market} class="d-block w-100 slideShow" id='HomePage' alt="..."/>
+    </div>
+  </div>
+  
       <div className='form3'>
       <div className="container">
       <h1 className='form1'>AddAttractions</h1>
@@ -61,6 +91,8 @@ import '../Styles/addattractions.css'
      </div>
  
      </form>
+   </div>
+   </div>
    </div>
    </div>
     )
