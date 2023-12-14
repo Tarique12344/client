@@ -30,7 +30,7 @@ class About extends Component {
     <div>
         <h1 className='about-header'>About Cincinnati World Tour</h1>
         <div>
-            <p className='history-text'> Our company is about helping people look for there vacation at cincinnati, We founded the company in 2010 a charity based company to help back the community. Our mission at Cincinnati World Tour is to manage travels for people all over the world and fulfill vacation dreams through our commitment  personalized vacation services. 
+            <p className='history-text'> Our company is about helping people look for there vacation at cincinnati, We founded the company in 2010 a charity based company to help back the community. Our mission at Cincinnati World Tour is to manage travels for people all over the world and fulfill vacation dreams through our commitment personalized vacation services. 
             </p>
         </div>
     </div>

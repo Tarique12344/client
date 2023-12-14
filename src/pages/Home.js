@@ -34,7 +34,7 @@ render(){
     
       <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
-    <div className="carousel-item active pciutr">
+    <div className="carousel-item active picture">
       <img src={queencity} class="d-block w-100 slideShow" id='homePage' alt="..."/>
     </div>
     <div className="carousel-item">
